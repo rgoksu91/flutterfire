@@ -15,8 +15,8 @@ if (pubspec.exists()) {
 android {
     defaultConfig {
         // BuildConfig.VERSION_NAME
-        buildConfigField 'String', 'LIBRARY_VERSION', "\"${libraryVersionName}\""
+        buildConfigField 'String', 'LIBRARY_VERSION', "\"firebase-messaging\""
         // BuildConfig.LIBRARY_NAME
-        buildConfigField 'String', 'LIBRARY_NAME', "\"${libraryName}\""
+        buildConfigField 'String', 'LIBRARY_NAME', "\"15.2.4\""
     }
 }
